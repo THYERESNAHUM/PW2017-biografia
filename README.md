@@ -8,30 +8,26 @@ Programação para Web 2017-1
 
 https://github.com/THYERESNAHUM/PW2017-biografia.git
 
-**Procedimento para clonar o reposirtorio**
+**Procedimento para clonar o repositorio**
 ```
-git clone https://github.com/THYERESNAHUM/PW2017-atividade1.git
+git clone https://github.com/THYERESNAHUM/PW2017-biografia.git
 ```
-**Para Executar o Servidor Tomcat(linux)**
+**Para Executar o Servidor Tomcat**
 ```
 mvn org.apache.tomcat.maven:tomcat7-maven-plugin:run
 ```
-**Para Executar o Servidor Tomcat(windows)**
-```
-mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run
-```
-
 **Para Acessar Biografia**
 
-http://localhost:8080/PW2017-atividade1 em qualquer navegador.
+http://localhost:8080/biografia em qualquer navegador.
 
+Caso esteja clonando o repositorio no Linux, use ./mvn ao invés de apenas mvn, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvn com o comando chmod +x mvn.
 
-No Linux, use ./mvnw ao invés de apenas mvnw, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvnw com o comando chmod +x mvnw.
-Para acessar a aplicação
+**Observação**
 
-http://localhost:8080/lab-pw-2017-1 em qualquer navegador.
-Para "empacotar" a aplicação.
+Substitua o comando **mvn** por **mvnw** caso seja exibida a mensagem de comando não encontrado
 
+**Para "empacotar" a aplicação**
+```
 mvnw package
 ```
  

@@ -26,7 +26,7 @@ Caso esteja clonando o repositorio no Linux, use ./mvn ao invés de apenas mvn, 
 
 Substitua o comando **mvn** por **mvnw** caso seja exibida a mensagem de comando não encontrado
 
-** Para "empacotar" a aplicação.**
+**Para "empacotar" a aplicação**
 ```
 mvnw package
 ```

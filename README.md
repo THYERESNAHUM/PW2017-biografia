@@ -10,20 +10,14 @@ https://github.com/THYERESNAHUM/PW2017-biografia.git
 
 **Procedimento para clonar o reposirtorio**
 ```
-git clone https://github.com/THYERESNAHUM/PW2017-atividade1.git
+git clone https://github.com/THYERESNAHUM/PW2017-biografia.git
 ```
-**Para Executar o Servidor Tomcat(linux)**
+**Para Executar o Servidor Tomcat**
 ```
 mvn org.apache.tomcat.maven:tomcat7-maven-plugin:run
 ```
-**Para Executar o Servidor Tomcat(windows)**
-```
-mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run
-```
-
 **Para Acessar Biografia**
-
-http://localhost:8080/PW2017-atividade1 em qualquer navegador.
+http://localhost:8080/biografia em qualquer navegador.
 
 
 No Linux, use ./mvnw ao invés de apenas mvnw, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvnw com o comando chmod +x mvnw.

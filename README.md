@@ -12,7 +12,7 @@ https://github.com/THYERESNAHUM/PW2017-biografia.git
 ```
 git clone https://github.com/THYERESNAHUM/PW2017-biografia.git
 ```
-**Para Executar o Servidor Tomcat**
+**Comando para executar o servidor Tomcat**
 ```
 mvn org.apache.tomcat.maven:tomcat7-maven-plugin:run
 ```
@@ -31,3 +31,7 @@ Substitua o comando **mvn** por **mvnw** caso seja exibida a mensagem de comando
 mvnw package
 ```
  
+**Caso queira compactar o pacote para executar em maquinas sem maven instalado.**
+```
+mvn io.takari:maven:0.3.3:wrapper -Dmaven=3.3.9
+```

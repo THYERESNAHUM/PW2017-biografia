@@ -6,7 +6,7 @@ Programação para Web 2017-1
 
 **Link para repositorio**
 
-https://github.com/THYERESNAHUM/PW2017-atividade1.git
+https://github.com/THYERESNAHUM/PW2017-biografia.git
 
 **Procedimento para clonar o reposirtorio**
 ```

@@ -13,24 +13,37 @@ https://github.com/THYERESNAHUM/PW2017-biografia.git
 git clone https://github.com/THYERESNAHUM/PW2017-biografia.git
 ```
 **Comando para executar o servidor Tomcat**
+
+* Se possuir maven instalado
 ```
 mvn org.apache.tomcat.maven:tomcat7-maven-plugin:run
 ```
+
+* Se não possuir maven instalado
+
+```
+mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run
+```
+
 **Para Acessar Biografia**
 
 http://localhost:8080/biografia em qualquer navegador.
 
-Caso esteja clonando o repositorio no Linux, use ./mvn ao invés de apenas mvn, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvn com o comando chmod +x mvn.
+Caso esteja clonando o repositorio no Linux, use ./mvnw ao invés de apenas mvnw, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvnw com o comando chmod +x mvnw.
 
-**Observação**
-
-Substitua o comando **mvn** por **mvnw** caso seja exibida a mensagem de comando não encontrado
 
 **Para "empacotar" a aplicação**
+
+* Se possuir maven instalado
+```
+mvn package
+```
+
+* Se não possuir maven instalado
 ```
 mvnw package
 ```
- 
+
 **Caso queira compactar o pacote para executar em maquinas sem maven instalado.**
 ```
 mvn io.takari:maven:0.3.3:wrapper -Dmaven=3.3.9

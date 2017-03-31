@@ -43,6 +43,9 @@ mvn package
 ```
 mvnw package
 ```
+**Obs:**
+
+O arquivo .gitignore contem as exceções(dir target) que não são enviadas para esse repositorio.
 
 **Caso queira compactar o pacote para executar em maquinas sem maven instalado.**
 ```
